@@ -71,10 +71,10 @@ const deletarNoticias = function(){
 
     for(let i=todasNoticias.length; i>0; i--) {
       todasNoticias.pop();
-      not.innerHTML= '';
-      document.querySelector("#tituloNoticias").style = "display: none"
-      document.querySelector('#qtdNoticias').textContent = 0;
     }
+    not.innerHTML= '';
+    document.querySelector("#tituloNoticias").style = "display: none"
+    document.querySelector('#qtdNoticias').textContent = 0;
   });
 }
 
