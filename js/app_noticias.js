@@ -17,7 +17,7 @@ const cadastrarNoticia = function(){
   document.querySelector('#btnCadastrarNoticia').addEventListener('click', ()=> {
     const noticia = document.querySelector('#noticia').value;
 
-    if(!noticia || noticia.length < 100) {  
+    if(!noticia || noticia.length < 10) {  
       alert('Digite uma notícia!');
     } 
     else {
