@@ -14,7 +14,7 @@
   <li>Não cadastrar se campo estiver em branco</li>
   <li>Não cadastrar se notícia obter menos de 100 caracteres</li>
   <li>Se não houver notícias cadastradas mostrar mensagem informando</li>
-  <li>Focar campo de cadastro após cadastrar notícia</li>
+  <li>Focar e limpar campo de cadastro após cadastrar notícia</li>
 </ul>
 
 <br><br>
